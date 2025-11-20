@@ -15,9 +15,8 @@ Here's an overview of our core projects:
 * **Bitcoin Historical Events API & Database** ([`calendar-api-db`](https://github.com/Bitcoin-Calendar/calendar-api-db)): A Go-based API serving historical Bitcoin event data from SQLite databases, supporting full text search. This is the backend powering our data.
 * **Bitcoin Calendar Bot** ([`nostr-bot`](https://github.com/Bitcoin-Calendar/nostr-bot)): A Go application that fetches historical Bitcoin event data from our API and publishes these events to Nostr relays, automating daily posts.
 * **ArchiveBox** ([`archive.bitcoin-calendar.org`](https://archive.bitcoin-calendar.org/admin/core/snapshot/)): a self-hosted web archive of all the sources and historical documents, referenced by the database.
-* **Haven relay and Blossom server**: Nostr relay and media server ensuring full control over the notes and media being blasted over Nostr.
-* **Bitcoin Calendar Website (Next.js)**: *[Coming Soon!]* Our upcoming interactive Next.js website featuring a React Big Calendar to display all historical Bitcoin events. This platform will provide search capabilities, events categorization, Nostr comments, logins, zaps, and more, offering a rich user experience.
-* **Bitcoin Calendar Website** ([`bitcoin-calendar.org`](https://bitcoin-calendar.org/en)): A web application displaying all historical milestones in a neat calendar view. As development undergoes early stages, the source code of the application is closed. I am planning to open it when time comes.
+* **Haven relay and Blossom server**: Nostr relay and media server ensuring full control over the notes and media being blasted across Nostr.
+* **Bitcoin Calendar Website** ([`bitcoin-calendar.org`](https://bitcoin-calendar.org/en)): A web application displaying all historical milestones in a neat calendar view and provides search capabilities and events categorization. Nostr comments, logins and zaps are on the way. As development is still in progress, the source code is closed. I am planning to open it when time comes.
 
 You can look into our future development plans at [`ROADMAP.md`](https://github.com/Bitcoin-Calendar/nostr-bot/blob/main/docs/ROADMAP.md)
 
